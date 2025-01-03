@@ -2,7 +2,7 @@
 This library was created by:
 - **Sadra Zahed Kachaee  10968059** -  Developer
 - **Hoda Sadat Mousavi Tabar  10904806** -  Developer
-- **Hana Asadi Aghbolaghi  10962418** -  Developer
+- **Hananeh Asadi Aghbolaghi  10962418** -  Developer
   
 # RS_indexes
 A Python library to compute popular remote sensing indexes like NDVI, EVI, NDMI, NDWI, and NBR.
