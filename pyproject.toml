@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RS_indexes"
+version = "0.2.0"
+description = "Transparent NumPy and Rasterio utilities for common remote-sensing indices"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Sadra Zahed Kachaee" },
+  { name = "Hoda Sadat Mousavi Tabar" },
+  { name = "Hananeh Asadi Aghbolaghi" },
+]
+dependencies = [
+  "numpy>=1.24",
+  "rasterio>=1.3",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: GIS",
+]
+
+[project.urls]
+Repository = "https://github.com/nazizahed/RS_indexes"
+
+[tool.setuptools.packages.find]
+include = ["RS_indexes*"]
+
